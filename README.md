@@ -4,7 +4,7 @@
 #####  <p align="center"> <sup>1</sup>Hong Kong University of Science and Technology, <sup>2</sup>Sichuan University</p>
 <div align="center">
   <a href="https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link">Pretrained Models</a> &ensp;
-  <a href="https://arxiv.org/abs/2503.18007">Paper</a> &ensp;
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32984">Paper</a> &ensp;
 </div>
 
 # ✨ News
@@ -89,9 +89,12 @@ Our code is built on [AnchorFormer](https://github.com/chenzhik/AnchorFormer) co
 
 # 📖 BibTeX
 
-    @article{yan2025symmcompletion,
-        title={SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance},
-        author={Yan, Hongyu and Li, Zijun and Luo, Kunming and Lu, Li and Tan, Ping},
-        journal={arXiv preprint arXiv:2503.18007},
-        year={2025}
-    }
+  @inproceedings{yan2025symmcompletion,
+  title={SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance},
+  author={Yan, Hongyu and Li, Zijun and Luo, Kunming and Lu, Li and Tan, Ping},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={9},
+  pages={9094--9102},
+  year={2025}
+  }
