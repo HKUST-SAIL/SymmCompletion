@@ -5,6 +5,7 @@
 <div align="center">
   <a href="https://drive.google.com/drive/folders/1JRdZvdEuPDzXbiLTTvt3pYjGC3Yj3z6p?usp=drive_link">Pretrained Models</a> &ensp;
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32984">Paper</a> &ensp;
+  <a href="https://arxiv.org/abs/2503.18007">Arxiv</a> &ensp;
 </div>
 
 # ✨ News
