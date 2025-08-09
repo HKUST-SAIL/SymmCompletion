@@ -64,7 +64,7 @@ sh extensions/install.sh
     ```
 3. Training
     ```
-    python main.py --config cfgs/PCN_models/SymmCompletion.yaml --val_freq 10 --val_interval 50 --exp_name train_pcn
+    python main.py --config cfgs/PCN_models/SymmCompletion.yaml --val_freq 10 --val_interval 50 --exp_name train_pcn --deterministic
     ```
 4. Testing
     ```
