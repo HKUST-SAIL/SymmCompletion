@@ -10,6 +10,7 @@
 
 # ✨ News
 - We open-source the 3D native generation model [CraftsMan3D](https://github.com/wyysf-98/CraftsMan3D/tree/main). Welcome to discuss the next-generation method for point cloud completion.
+- We have fixed the problem of low training speed when using the DataParallel. Setting the parameter of deterministic to true in the running command.
 
 # Introduction
 This repository is the code for SymmCompletion: High-Fidelity and High-Consistency Point Cloud Completion with Symmetry Guidance (AAAI 2025 Oral Presentation)
