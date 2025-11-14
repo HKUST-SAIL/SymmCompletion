@@ -92,7 +92,7 @@ class LSTNet(nn.Module):
         feat = self.expanding(keyfeatures)
         feat = feat.transpose(2, 1).contiguous()
         gf_feat = feat.max(dim=1, keepdim=True)[0]
-        feat = torch.cat([feat, gf_feat.repeat(1, feat.size(2), 1)], dim=-1) # B,640,512
+        feat = torch.cat([feat, gf_feat.repeat(1, feat.size(1), 1)], dim=-1) # B,640,512
 
         ret = self.mlp(feat)   
         R = ret[:, :, :9].view(b, 512, 3, 3)
